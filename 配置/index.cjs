@@ -21,22 +21,22 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'orZU66zu4_MFedLF_ObPJVXTi1Ic',
+      id: '	orZU66zu4_MFedLF_ObPJVXTi1Ic',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '05-17',
+      useTemplateId: 'zJ-tEwXi3svn74Owx6GpIeXm5J6iZ_0uMz_HJouC8gs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '04-14',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2000', date: '04-14',
+          type: '*生日', name: '芋头', year: '2000', date: '04-14',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '芋头', year: '2000', date: '05-17',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '11-17',
+          type: '节日', name: '相识纪念日', year: '2020', date: '10-01',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -53,7 +53,7 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: '十一点半睡觉',
+      name: '宝贝',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'orZU66zu4_MFedLF_ObPJVXTi1Ic',
     }
